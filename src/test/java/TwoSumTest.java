@@ -42,5 +42,4 @@ public class TwoSumTest {
         int[] actualResult = new TwoSum().twoSum(nums, target);
         Assertions.assertArrayEquals(expectedResult, actualResult);
     }
-
 }

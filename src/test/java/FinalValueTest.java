@@ -26,7 +26,6 @@ public class FinalValueTest {
 }
 
 
-//
 //        System.out.println(finalValueAfterOperations(new String[]{"--X","X++","X++"}));
-//                System.out.println(finalValueAfterOperations(new String[]{"++X","++X","X++"}));
-//                System.out.println(finalValueAfterOperations(new String[]{"X++","++X","--X","X--"}));
+//        System.out.println(finalValueAfterOperations(new String[]{"++X","++X","X++"}));
+//        System.out.println(finalValueAfterOperations(new String[]{"X++","++X","--X","X--"}));
