@@ -11,6 +11,7 @@ public class AcronymTest {
 
 
     private static Stream<Arguments> acronymArgumentsProvider() {
+
         return Stream.of (
                 Arguments.of(Arrays.asList("alice","bob","charlie"), "abc", true),
                 Arguments.of(List.of("an","apple"), "a", false),
