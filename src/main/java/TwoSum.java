@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class TwoSum {
 
       /*
@@ -31,7 +33,7 @@ public class TwoSum {
         Only one valid answer exists.
     */
 
-    public int[] twoSum(int[] nums, int target) {
+    public static int[] twoSum(int[] nums, int target) {
         if(nums.length < 2 || nums.length > 10 * 10 * 10 * 10) {
             return new int[]{};
         }
@@ -46,6 +48,15 @@ public class TwoSum {
         return new int[]{-1, -1};
     }
 
-    //HashMap
-    // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    public static void main(String[] args) {
+
+        int[][] numbers = {{2, 7, 11, 15}, {3, 2, 4}, {3, 3}};
+        int[] target = {9, 6, 6};
+        int t = 0;
+
+        for (int[] i : numbers) {
+            System.out.println(Arrays.toString(twoSum(i, target[t])));
+            t++;
+        }
+    }
 }

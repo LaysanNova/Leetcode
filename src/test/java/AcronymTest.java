@@ -29,25 +29,3 @@ public class AcronymTest {
         Assertions.assertEquals(expectedResult, actualResult2);
     }
 }
-
-
-//    public static void main(String[] args) {
-//
-//        List<String> messages = Arrays.asList("Hello", "World!", "How", "Are", "You");
-//
-//        System.out.println(acronym1(Arrays.asList("alice","bob","charlie"), "abc"));
-//        System.out.println(acronym2(List.of("alice","bob","charlie"), "abc"));
-//        System.out.println(acronym3(Arrays.asList("alice","bob","charlie"), "abc"));
-//        System.out.println(acronym4(Arrays.asList("alice","bob","charlie"), "abc"));
-//
-//        System.out.println(acronym1(List.of("an","apple"), "a"));
-//        System.out.println(acronym2(Arrays.asList("an","apple"), "a"));
-//        System.out.println(acronym3(Arrays.asList("an","apple"), "a"));
-//        System.out.println(acronym4(Arrays.asList("an","apple"), "a"));
-//
-//        System.out.println(acronym1(Arrays.asList("never","gonna","give","up","on","you"), "ngguoy"));
-//        System.out.println(acronym2(Arrays.asList("never","gonna","give","up","on","you"), "ngguoy"));
-//        System.out.println(acronym3(Arrays.asList("never","gonna","give","up","on","you"), "ngguoy"));
-//        System.out.println(acronym4(List.of("never","gonna","give","up","on","you"), "ngguoy"));
-//
-//    }

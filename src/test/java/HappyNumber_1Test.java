@@ -22,9 +22,8 @@ public class HappyNumber_1Test {
     @ParameterizedTest
     @MethodSource("happyNumberArgumentsProvider")
     public void testHappyNumber(int n, boolean expectedResult) {
-        HappyNumber_1 hn = new HappyNumber_1();
+        HappyNumber hn = new HappyNumber();
 
         Assertions.assertEquals(expectedResult, hn.isHappy(n));
     }
-
 }

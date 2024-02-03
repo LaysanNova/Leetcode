@@ -19,7 +19,6 @@ public class BinarySearch {
         return -1;
     }
 
-
     static int binarySearchChar(char[] row, char number) {
 
         int start = 0;
@@ -55,7 +54,6 @@ public class BinarySearch {
             return recursiveBinarySearch(row, number, middle + 1, end );
         }
     }
-
 
     public static void main(String[] args) {
 

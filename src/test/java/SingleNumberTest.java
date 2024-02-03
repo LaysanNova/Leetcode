@@ -23,11 +23,4 @@ public class SingleNumberTest {
         int actualResult = new SingleNumber().singleNumber1(arr);
         Assertions.assertEquals(expectedResult, actualResult);
     }
-};
-
-//    public static void main(String[] args) {
-//
-//        System.out.println("a " + singleNumber(new int[] {2,2,1}));
-//        System.out.println("a " + singleNumber(new int[] {4,1,2,1,2}));
-//        System.out.println("a " + singleNumber(new int[] {1}));
-//    };
+}

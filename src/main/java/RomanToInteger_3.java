@@ -1,5 +1,5 @@
 public class RomanToInteger_3 {
-    public int romanToInt(String s) {
+    public static int romanToInt(String s) {
 
         if (s.isEmpty() || s.length() > 15) {
             return 0;
@@ -34,6 +34,11 @@ public class RomanToInteger_3 {
         }
 
         return sum;
+    }
+
+    public static void main(String[] args) {
+
+        System.out.println(romanToInt("MCMXCIV"));
     }
 }
 

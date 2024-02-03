@@ -31,7 +31,7 @@ import java.util.Arrays;
 
 public class MissingNumber {
 
-    public int missingNumber(int[]nums) {
+    public static int missingNumber(int[] nums) {
 
         int[] arr = new int[nums.length + 1];
 
@@ -45,10 +45,9 @@ public class MissingNumber {
             }
         }
         return -1;
-    };
+    }
 
-
-    public int missingNumber1(int[]nums) {
+    public static int missingNumber1(int[] nums) {
         Arrays.sort(nums);
 
         for (int i = 0; i < nums.length; i++){
@@ -57,7 +56,17 @@ public class MissingNumber {
             }
         }
         return nums.length;
-    };
+    }
+
+    public static void main(String[] args) {
+
+        int[][] numbers = {{3, 0, 1}, {0, 1}, {9,6,4,2,3,5,7,0,1}};
+
+        for (int[] i : numbers) {
+            System.out.println(Arrays.toString(i) +" -> missing number is " + missingNumber(new int[] {3,0,1}));
+            System.out.println(Arrays.toString(i) +" -> missing number is " + missingNumber1(new int[] {3,0,1} ) + "\n");
+        }
+    }
 }
 
 

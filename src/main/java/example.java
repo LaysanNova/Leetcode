@@ -1,21 +1,16 @@
 public class example {
-
-    static void devide(int number) {
+    static void divide(int number) {
 
         while (number > 0) {
 
-            System.out.print(number + " -> ");
-            System.out.print(" " + number % 10);
+            System.out.print(number + " -> " + " " + number % 10 + "\n");
             number = number / 10;
-            System.out.println();        }
-
-        System.out.println();
+        }
 
     }
 
     public static void main(String[] args) {
-        devide(12563312);
 
-        Variable variable = new Variable();
+        divide(12563312);
     }
 }

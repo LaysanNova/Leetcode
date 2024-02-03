@@ -10,20 +10,16 @@ public class TwoSumTest {
 
     @Test
     public void testtwoSum() {
-        //AAA
-        //A - arrange
+
         int[] nums = {2, 7, 11, 15};
         int target = 9;
         int[] expectedResult = {0, 1};
 
-        //A - act
         int[] actualResult = new TwoSum().twoSum(nums, target);
 
-        //A - assert
         Assertions.assertArrayEquals(expectedResult, actualResult);
     }
 
-//Parameter test
     private static Stream<Arguments> twoSumArgumentProvider() {
         return Stream.of(
                 Arguments.of(new int[]{2, 7, 11, 15}, 9, new int[]{0, 1}),

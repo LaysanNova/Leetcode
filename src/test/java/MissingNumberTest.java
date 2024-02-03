@@ -27,13 +27,4 @@ public class MissingNumberTest {
         int actualResult1 = new MissingNumber().missingNumber1(nums);
         Assertions.assertEquals(expectedResult, actualResult);
     }
-
-
 }
-
-//    public static void main(String[] args) {
-//
-//        System.out.println(missingNumber1(new int[] {3,0,1}));
-//        System.out.println(missingNumber1(new int[] {0,1}));
-//        System.out.println(missingNumber1(new int[] {9,6,4,2,3,5,7,0,1}));
-//    }

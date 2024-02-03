@@ -6,29 +6,30 @@ public class LongestCommonPrefix {
     public static String longestCommonPrefix(String[] strs) {
 
         // ************ 1 *******************************
-//        int s = 200;
-//        for (int i = 0; i < strs.length; i++) {
-//            if (strs.length > 200 || strs[i].length() > 200) {
-//                return "";
-//            }
-//            if (strs[i].length() < s) {
-//                s = strs[i].length();
-//            }
-//        }
-//        char[] ret = new char[s];
-//        int index = 0;
-//        for (int k = 0; k < s; k++) {
-//            for (int j = 1; j < strs.length; j++){
-//                if (strs[0].charAt(k) != strs[j].charAt(k)){
-//                    return String.valueOf(ret, 0, index);
-//                }
-//            }
-//            ret[k] = strs[0].charAt(k);
-//            index +=1;
-//        }
-//        return String.valueOf(ret, 0, index);
+        int s = 200;
+        for (int i = 0; i < strs.length; i++) {
+            if (strs.length > 200 || strs[i].length() > 200) {
+                return "";
+            }
+            if (strs[i].length() < s) {
+                s = strs[i].length();
+            }
+        }
+        char[] ret = new char[s];
+        int index = 0;
+        for (int k = 0; k < s; k++) {
+            for (int j = 1; j < strs.length; j++){
+                if (strs[0].charAt(k) != strs[j].charAt(k)){
+                    return String.valueOf(ret, 0, index);
+                }
+            }
+            ret[k] = strs[0].charAt(k);
+            index +=1;
+        }
+        return String.valueOf(ret, 0, index);
 
-        // ************** 2 *****************************
+        /*
+        ************* 2 *****************************
         String result = "";
         if (strs.length == 1) {
             return strs[0];
@@ -53,6 +54,8 @@ public class LongestCommonPrefix {
                             }}}}}}
 
         return result;
+
+        */
     }
 
     public static void main(String[] args) {
