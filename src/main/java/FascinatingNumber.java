@@ -1,5 +1,4 @@
 public class FascinatingNumber {
-
     public static boolean numberIsFascinating(int n){
 
         boolean[] fascinating = new boolean[10];

@@ -22,5 +22,4 @@ public class PalindromeNumberTest {
     public void palindromeNumberNumbers(int nums, boolean expectedResult) {
         Assertions.assertEquals(expectedResult, (boolean)new PalindromeNumber().isPalindrome(nums));
     }
-
 }

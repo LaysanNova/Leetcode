@@ -1,6 +1,3 @@
-import static java.util.Collections.checkedNavigableSet;
-import static java.util.Collections.min;
-
 public class LongestCommonPrefix {
 
     public static String longestCommonPrefix(String[] strs) {

@@ -26,7 +26,6 @@
 //        0 <= nums[i] <= n
 //        All the numbers of nums are unique.
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class MissingNumber {
@@ -68,5 +67,3 @@ public class MissingNumber {
         }
     }
 }
-
-

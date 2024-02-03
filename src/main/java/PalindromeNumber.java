@@ -1,5 +1,3 @@
-import java.util.stream.Stream;
-
 public class PalindromeNumber {
 
     public static boolean isPalindrome(int x) {
@@ -28,6 +26,4 @@ public class PalindromeNumber {
             System.out.println("Number: " + number + " is palindrome " + isPalindrome(number));
         }
     }
-
 }
-

@@ -11,27 +11,6 @@ public class FinalValue {
         if (operations.length >= 1 && operations.length <= 100) {
             int result = 0;
 
-        /*
-
-        for (String operation : operations){
-            if (operation.equals("X++") || operation.equals("++X")){
-                result++;
-            }
-            if (operation.equals("X--") || operation.equals("--X")){
-                result--;
-            }
-        }
-
-        for (String operation : operations){
-            switch (operation) {
-                case "X++" -> result++;
-                case "++X" -> ++result;
-                case "X--" -> result--;
-                case "--X" -> --result;
-            }
-        }
-        */
-
             for (String operation : operations){
                 char o = operation.charAt(1);
                 if (o == '+'){

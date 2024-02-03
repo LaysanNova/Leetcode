@@ -5,18 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34742ba0-e572-4c0a-b31c-bdc7c8feb090" name="Changes" comment="circle">
-      <change afterPath="$PROJECT_DIR$/src/main/java/HappyNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Acronym.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Acronym.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Anagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Anagram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinarySearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CirclePattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CirclePattern.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FascinatingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FascinatingNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FinalValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FinalValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HappyNumber_1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HappyNumber_2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HappyNumber_3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HappyNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HappyNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/LongestCommonPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LongestCommonPrefix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MissingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MissingNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/NumbersSmaller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NumbersSmaller.java" afterDir="false" />
@@ -24,19 +18,14 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/RemoveElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RemoveElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/RomanToInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RomanToInteger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/RomanToInteger_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RomanToInteger_3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ShuffleTheArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ShuffleTheArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SingleNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SingleNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SupermarketQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SupermarketQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ThreeSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TwoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TwoEventsHaveProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TwoEventsHaveProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ValidPolindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ValidPolindrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/AcronymTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AcronymTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HappyNumber_1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HappyNumber_1Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MissingNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MissingNumberTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RomanToIntegerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RomanToIntegerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RomanToInteger_3Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SingleNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SingleNumberTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TwoSumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TwoSumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AnagramTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AnagramTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FinalValueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FinalValueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RomanToIntegerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RomanToInteger_3Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,16 +85,9 @@
       <recent name="BinarySearch" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ValidPolindrome">
-    <configuration name="SupermarketQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SupermarketQueue" />
-      <module name="LeetCode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TwoEventsHaveProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TwoEventsHaveProblem" />
+  <component name="RunManager" selected="JUnit.FinalValueTest.testFinalValue">
+    <configuration name="Circle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Circle" />
       <module name="LeetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -125,6 +107,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FinalValueTest.testFinalValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FinalValueTest" />
+      <option name="METHOD_NAME" value="testFinalValue([Ljava.lang.String;,int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TwoSumTest.testTwoSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="PACKAGE_NAME" value="" />
@@ -137,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FinalValueTest.testFinalValue" />
+        <item itemvalue="Application.Circle" />
         <item itemvalue="Application.ValidPolindrome" />
         <item itemvalue="Application.TwoSum" />
         <item itemvalue="JUnit.TwoSumTest.testTwoSum" />
-        <item itemvalue="Application.TwoEventsHaveProblem" />
-        <item itemvalue="Application.SupermarketQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -273,17 +265,6 @@
   "lastFilter": {
   }
 }]]></component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Circle.java</url>
-          <line>1</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LeetCode$BinarySearch.ic" NAME="BinarySearch Coverage Results" MODIFIED="1702681849069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>

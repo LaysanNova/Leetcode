@@ -6,8 +6,7 @@ import org.junit.jupiter.params.provider.MethodSource;
 
 import java.util.stream.Stream;
 
-
-public class RomanToIntegerTest {
+public class RomanToInteger_3Test {
 
     private static Stream<Arguments> romanToIntegerArgumentsProvider() {
         return Stream.of(

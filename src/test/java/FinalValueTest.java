@@ -3,8 +3,6 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 
-import java.util.Arrays;
-import java.util.List;
 import java.util.stream.Stream;
 
 public class FinalValueTest {
@@ -24,8 +22,3 @@ public class FinalValueTest {
         Assertions.assertEquals(expectedResult, actualResult);
     }
 }
-
-
-//        System.out.println(finalValueAfterOperations(new String[]{"--X","X++","X++"}));
-//        System.out.println(finalValueAfterOperations(new String[]{"++X","++X","X++"}));
-//        System.out.println(finalValueAfterOperations(new String[]{"X++","++X","--X","X--"}));

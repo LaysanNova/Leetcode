@@ -42,11 +42,7 @@
 //        startTime2 <= endTime2
 //        All the event times follow the HH:MM format.
 
-
-import java.util.Arrays;
-
 public class TwoEventsHaveProblem {
-
   public static boolean haveConflict(String[] event1, String[] event2) {
 
       String[] e11 = event1[0].split(":");

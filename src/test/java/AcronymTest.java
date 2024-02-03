@@ -9,7 +9,6 @@ import java.util.stream.Stream;
 
 public class AcronymTest {
 
-
     private static Stream<Arguments> acronymArgumentsProvider() {
 
         return Stream.of (

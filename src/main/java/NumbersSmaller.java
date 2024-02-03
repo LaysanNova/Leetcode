@@ -16,7 +16,6 @@ public class NumbersSmaller {
 
         return result;
     }
-
     public static void main(String[] args) {
 
         System.out.println(Arrays.toString(smallerNumbersThanCurrent(new int[]{8,1,2,2,3})));
