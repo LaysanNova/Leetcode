@@ -3,8 +3,7 @@ package OOP;
 import java.text.DecimalFormat;
 
 public class Employee {
-
-    public static int number = 1;
+    public static int number = 0;
     private final int id;
     private final String employeeName;
     private final int employeeAge;
