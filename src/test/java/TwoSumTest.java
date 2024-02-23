@@ -9,13 +9,13 @@ import java.util.stream.Stream;
 public class TwoSumTest {
 
     @Test
-    public void testtwoSum() {
+    public void testTwoSum() {
 
         int[] nums = {2, 7, 11, 15};
         int target = 9;
         int[] expectedResult = {0, 1};
 
-        int[] actualResult = new TwoSum().twoSum(nums, target);
+        int[] actualResult = TwoSum.twoSum(nums, target);
 
         Assertions.assertArrayEquals(expectedResult, actualResult);
     }
@@ -35,7 +35,7 @@ public class TwoSumTest {
     @ParameterizedTest
     @MethodSource("twoSumArgumentProvider")
     public void testTwoSum(int[] nums, int target, int[] expectedResult) {
-        int[] actualResult = new TwoSum().twoSum(nums, target);
+        int[] actualResult = TwoSum.twoSum(nums, target);
         Assertions.assertArrayEquals(expectedResult, actualResult);
     }
 }
