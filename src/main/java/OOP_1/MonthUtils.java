@@ -1,4 +1,4 @@
-package OOP;
+package OOP_1;
 
 public class MonthUtils {
 
@@ -50,7 +50,7 @@ public class MonthUtils {
         return noun2;
     }
 
-    public static Month[] getJanuary() {
+    static Month[] getJanuary() {
         return january;
     }
 }
