@@ -31,21 +31,29 @@ public class Utils {
         return budget;
     }
 
-    static MinMax findMinMaxSalaryEmployee(Employee[] employees) {
+    static Employee findMinSalaryEmployee(Employee[] employees) {
 
-        MinMax minMax = new MinMax();
-        MinMax.setMinSalary(employees[0]);
-        MinMax.setMaxSalary(employees[0]);
+        Employee min = employees[0];
 
         for (Employee e : employees) {
-            if (MinMax.getMinSalary().getSalary() > e.getSalary()) {
-                MinMax.setMinSalary(e);
-            }
-            if (MinMax.getMaxSalary().getSalary() < e.getSalary()) {
-                MinMax.setMaxSalary(e);
+            if (min.getSalary() > e.getSalary()) {
+                min = e;
             }
         }
 
-        return minMax;
+        return min;
+    }
+
+    static Employee findMaxSalaryEmployee(Employee[] employees) {
+
+        Employee max = employees[0];
+
+        for (Employee e : employees) {
+            if (max.getSalary() < e.getSalary()) {
+                max = e;
+            }
+        }
+
+        return max;
     }
 }
