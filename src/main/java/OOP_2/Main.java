@@ -27,14 +27,14 @@ public class Main {
                     " : " + m.getSalary());
         }
 
-
-        System.out.println("\n--------------------------------------");
+        System.out.printf("%n%s%n", "—".repeat(70));
         printEmployeeData("Tim");
         printEmployeeData("Tom");
         printEmployeeData("Ken");
         printEmployeeData("Dan");
         printEmployeeData("Kur");
 
+        System.out.printf("%n%s%n", "—".repeat(70));
         double budget = getBudget(Data.getEmployees().get("employees"));
         System.out.println(Data.getEmployees().get("employees").length + " employees\n1 month : " + budget);
 
