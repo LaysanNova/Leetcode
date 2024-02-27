@@ -5,11 +5,11 @@ import static OOP_2.Utils.*;
 public class Main {
     public static void main(String[] args) {
 
-        for (Employee d : Data.getEmployees().get("employees")) {
-            System.out.println(d.getName() +
-                    " : " + d.getBaseSalary() +
-                    " : " + d.getBonus() +
-                    " : " + d.getSalary());
+        for (Employee e : Data.getEmployees().get("employees")) {
+            System.out.println(e.getName() +
+                    " : " + e.getBaseSalary() +
+                    " : " + e.getBonus() +
+                    " : " + e.getSalary());
         }
         System.out.println();
 
