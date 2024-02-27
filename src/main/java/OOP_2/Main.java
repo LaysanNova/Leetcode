@@ -51,7 +51,10 @@ public class Main {
 
         try {
             Employee e = Utils.getEmployeeByName(name);
-            System.out.println(e.getName() + " : " + e.getBaseSalary() + " : " + e.getBonus() + " : " + e.getSalary());
+            System.out.println(e.getName() + " : " +
+                    e.getBaseSalary() + " : " +
+                    e.getBonus() + " : " +
+                    e.getSalary());
         }
         catch (Exception e) {
             System.out.println("Exception: Could not find Employee: " + name);
