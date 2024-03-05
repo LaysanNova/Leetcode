@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34742ba0-e572-4c0a-b31c-bdc7c8feb090" name="Changes" comment="OOP">
+      <change afterPath="$PROJECT_DIR$/src/main/java/MaxInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MaxInArrayTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OOP_2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OOP_2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OOP_2/MinMax.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OOP_2/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OOP_2/Utils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,16 +71,10 @@
       <recent name="BinarySearch" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OOP_2.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOP_1.Main" />
+  <component name="RunManager" selected="JUnit.MaxInArrayTest.testHappyNumber">
+    <configuration name="MaxInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MaxInArray" />
       <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OOP_1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -99,46 +92,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OOP_3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOP_3.Main" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OOP_3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TwoSumTest.testTwoSum (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MaxInArrayTest.testHappyNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TwoSumTest" />
-      <option name="METHOD_NAME" value="testTwoSum(int[],int,int[])" />
+      <option name="MAIN_CLASS_NAME" value="MaxInArrayTest" />
+      <option name="METHOD_NAME" value="testHappyNumber(double[],double[],double[])" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSumTest.testTwoSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MissingNumberTest.testMissingNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TwoSumTest" />
-      <option name="METHOD_NAME" value="testTwoSum" />
+      <option name="MAIN_CLASS_NAME" value="MissingNumberTest" />
+      <option name="METHOD_NAME" value="testMissingNumbers(int[],int)" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxInArrayTest.testMaxInArray" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MaxInArrayTest" />
+      <option name="METHOD_NAME" value="testMaxInArray" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MaxInArrayTest.testHappyNumber" />
+        <item itemvalue="TestNG.MaxInArrayTest.testMaxInArray" />
+        <item itemvalue="Application.MaxInArray" />
+        <item itemvalue="JUnit.MissingNumberTest.testMissingNumbers" />
         <item itemvalue="Application.OOP_2.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.OOP_3.Main" />
-        <item itemvalue="JUnit.TwoSumTest.testTwoSum" />
-        <item itemvalue="JUnit.TwoSumTest.testTwoSum (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +199,39 @@
       <option name="project" value="LOCAL" />
       <updated>1708652524624</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="OOP">
+      <option name="closed" value="true" />
+      <created>1709000228202</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1709000228202</updated>
+    </task>
+    <task id="LOCAL-00009" summary="OOP">
+      <option name="closed" value="true" />
+      <created>1709000458778</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1709000458778</updated>
+    </task>
+    <task id="LOCAL-00010" summary="OOP">
+      <option name="closed" value="true" />
+      <created>1709000514329</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1709000514329</updated>
+    </task>
+    <task id="LOCAL-00011" summary="OOP">
+      <option name="closed" value="true" />
+      <created>1709000558901</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1709000558901</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -257,6 +281,8 @@
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
+    {
+    },
     {
     },
     {
